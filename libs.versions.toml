@@ -70,6 +70,7 @@ restaurantInfoVersion = "b922514012"
 restaurantMenusVersion = "396e8056be"
 restaurantReviewVersion = "d5d5aa49d5"
 restaurantGalleryVersion = "1943ea995e"
+coreKtx = "1.17.0"
 
 # @formatter:off
 [libraries]
@@ -176,6 +177,7 @@ accompanist-permissions = { module = "com.google.accompanist:accompanist-permiss
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
 kotlin-coroutines-play = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "coroutines" }
 androidx-work-runtime-ktx = "androidx.work:work-runtime-ktx:2.9.0"
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
