@@ -35,7 +35,7 @@ addReviewVersion                    = '308e4dd80f'
 alarmVersion                        = 'a48ab79e8f'
 baseFeedVersion                     = 'bb8753a77a'
 cardInfoVersion                     = "8f8b567fe1"
-feedVersion                         = '1a32f81918'
+feedVersion                         = '63a01eb8ab'
 profileVersion                      = '8e130e5129'
 findingVersion                      = '2f25d1f7e5'
 themeVersion                        = '534a8a456f'
@@ -47,7 +47,7 @@ loginVersion                        = 'ac5034132b'
 splashVersion                       = 'ea97b19733'
 torangRepositoryVersion             = '1ea2b3e965'
 settingsVersion                     = '06efa47b11'
-mapVersion                          = 'caa6781a0d'
+mapVersion                          = '89c3c54830'
 torangBottomSheetVersion            = 'e7c21e51cd'
 instaGramGalleryVersion             = 'daae57e0e1'
 filterVersion                       = '4715828ad7'
@@ -86,42 +86,42 @@ nav-compose                         = { group = "androidx.navigation", name = "n
 kotlinx-serialization-json          = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 
 # Room
-room-runtime                        = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
-room-compiler                       = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
-room-paging                         = { group = "androidx.room", name = "room-paging", version.ref = "room" }
+room-runtime                        = { group = "androidx.room",                name = "room-runtime", version.ref = "room" }
+room-compiler                       = { group = "androidx.room",                name = "room-compiler", version.ref = "room" }
+room-paging                         = { group = "androidx.room",                name = "room-paging", version.ref = "room" }
 
 # Hilt
-hilt                                = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltAndroid" }
-hilt-compiler                       = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltAndroid" }
-hilt-nav-compose                    = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+hilt                                = { group = "com.google.dagger",            name = "hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler                       = { group = "com.google.dagger",            name = "hilt-android-compiler", version.ref = "hiltAndroid" }
+hilt-nav-compose                    = { group = "androidx.hilt",                name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 
 # Test
-junit                               = { group = "junit", name = "junit", version.ref = "junit" }
-x-junit-ext                         = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-x-espresso-core                     = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-x-ui-test-junit4                    = { group = "androidx.compose.ui", name = "ui-test-junit4" }
-x-ui-test-manifest                  = { group = "androidx.compose.ui", name = "ui-test-manifest" }
-kotlinx-coroutines-test             = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
-mockito-core                        = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
-mockito-inline                      = { group = "org.mockito", name = "mockito-inline", version.ref = "mockito" }
-core-testing                        = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTesting" }
-hilt-testing                        = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hiltAndroid" }
+junit                               = { group = "junit",                        name = "junit", version.ref = "junit" }
+x-junit-ext                         = { group = "androidx.test.ext",            name = "junit", version.ref = "junitVersion" }
+x-espresso-core                     = { group = "androidx.test.espresso",       name = "espresso-core", version.ref = "espressoCore" }
+x-ui-test-junit4                    = { group = "androidx.compose.ui",          name = "ui-test-junit4" }
+x-ui-test-manifest                  = { group = "androidx.compose.ui",          name = "ui-test-manifest" }
+kotlinx-coroutines-test             = { group = "org.jetbrains.kotlinx",        name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+mockito-core                        = { group = "org.mockito",                  name = "mockito-core", version.ref = "mockito" }
+mockito-inline                      = { group = "org.mockito",                  name = "mockito-inline", version.ref = "mockito" }
+core-testing                        = { group = "androidx.arch.core",           name = "core-testing", version.ref = "coreTesting" }
+hilt-testing                        = { group = "com.google.dagger",            name = "hilt-android-testing", version.ref = "hiltAndroid" }
 
 # Compose
-x-compose-bom                       = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
-x-ui                                = { group = "androidx.compose.ui", name = "ui" }
-x-ui-graphics                       = { group = "androidx.compose.ui", name = "ui-graphics" }
-x-ui-tooling-preview                = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
-x-ui-tooling                        = { group = "androidx.compose.ui", name = "ui-tooling" }
-material3                           = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
-material3-windows-size              = { group = "androidx.compose.material3", name = "material3-window-size-class", version.ref = "material3" }
-lifecycle-runtime-compose           = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose" }
-constraintlayout-compose            = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+x-compose-bom                       = { group = "androidx.compose",             name = "compose-bom", version.ref = "composeBom" }
+x-ui                                = { group = "androidx.compose.ui",          name = "ui" }
+x-ui-graphics                       = { group = "androidx.compose.ui",          name = "ui-graphics" }
+x-ui-tooling-preview                = { group = "androidx.compose.ui",          name = "ui-tooling-preview" }
+x-ui-tooling                        = { group = "androidx.compose.ui",          name = "ui-tooling" }
+material3                           = { group = "androidx.compose.material3",   name = "material3", version.ref = "material3" }
+material3-windows-size              = { group = "androidx.compose.material3",   name = "material3-window-size-class", version.ref = "material3" }
+lifecycle-runtime-compose           = { group = "androidx.lifecycle",           name = "lifecycle-runtime-compose" }
+constraintlayout-compose            = { group = "androidx.constraintlayout",    name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
 
 # Retrofit
-retrofit                            = { group = "com.squareup.retrofit2",   name = "retrofit",                          version.ref = "retrofit" }
-converter-gson                      = { group = "com.squareup.retrofit2",   name = "converter-gson",                    version.ref = "converterGson" }
-logging-interceptor                 = { group = "com.squareup.okhttp3",     name = "logging-interceptor",               version.ref = "loggingInterceptor" }
+retrofit                            = { group = "com.squareup.retrofit2",       name = "retrofit",                          version.ref = "retrofit" }
+converter-gson                      = { group = "com.squareup.retrofit2",       name = "converter-gson",                    version.ref = "converterGson" }
+logging-interceptor                 = { group = "com.squareup.okhttp3",         name = "logging-interceptor",               version.ref = "loggingInterceptor" }
 
 # Torang
 theme                               = { group = "com.github.sarang628",         name = "Theme",                         version.ref = "themeVersion" }
