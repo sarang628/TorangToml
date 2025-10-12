@@ -50,7 +50,7 @@ settingsVersion                     = '06efa47b11'
 mapVersion                          = '89c3c54830'
 torangBottomSheetVersion            = 'd65ea5df3c'
 instaGramGalleryVersion             = 'daae57e0e1'
-filterVersion                       = '15839b2bd1'
+filterVersion                       = 'feabc45624'
 mainVersion                         = '2c9f16d398'
 reportVersion                       = '602b6c8c5e'
 mediaContentResolverVersion         = '54ff69ee3a'
@@ -73,7 +73,7 @@ restaurantInfoVersion               = "1e1547754d"
 restaurantMenusVersion              = "f63d4a8500"
 restaurantReviewVersion             = "d5d5aa49d5"
 restaurantGalleryVersion            = "1943ea995e"
-restaurantListBottomSheetVersion    = "fe3ca6247b"
+restaurantListBottomSheetVersion    = "24ceba35f3"
 
 [libraries]
 
