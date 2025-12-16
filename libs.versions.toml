@@ -74,7 +74,7 @@ torangDatabaseVersion               = '386b214eca'
 torangNetworkVersion                = '7831050514'
 restaurantInfoVersion               = "d393c6b99b"
 restaurantMenusVersion              = "f63d4a8500"
-restaurantReviewVersion             = "d5d5aa49d5"
+restaurantReviewVersion             = "bddde2275b"
 restaurantGalleryVersion            = "1943ea995e"
 restaurantListBottomSheetVersion    = "6550264f6a"
 
