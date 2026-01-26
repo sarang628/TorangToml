@@ -77,6 +77,7 @@ restaurantMenusVersion              = "f63d4a8500"
 restaurantReviewVersion             = "bddde2275b"
 restaurantGalleryVersion            = "1943ea995e"
 restaurantListBottomSheetVersion    = "6550264f6a"
+shortFormVersion                    = "77e558dcbe"
 lifecycleProcess = "2.6.0"
 
 [libraries]
@@ -172,6 +173,7 @@ torangnetwork                       = { group = "com.github.sarang628",         
 restaurantListBottomSheet           = { group = "com.github.sarang628",         name = "RestaurantListBottomSheet",     version.ref = "restaurantListBottomSheetVersion" }
 themes                              = { group = "com.github.bingley1",          name = "Themes",                        version.ref = "themesVersion" }
 dialogsBox                          = { group = "com.github.sarang628",         name = "DialogsBox",                    version.ref = "dialogsBoxVersion" }
+shortForm                           = { group = "com.github.sarang628",         name = "ShortForm",                     version.ref = "shortFormVersion" }
 
 #
 feature-delivery                    = { group = "com.google.android.play",      name = "feature-delivery",              version.ref = "featureDeliveryVersion"}
