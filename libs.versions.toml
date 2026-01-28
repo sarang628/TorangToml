@@ -77,7 +77,7 @@ restaurantMenusVersion              = "f63d4a8500"
 restaurantReviewVersion             = "bddde2275b"
 restaurantGalleryVersion            = "1943ea995e"
 restaurantListBottomSheetVersion    = "6550264f6a"
-shortFormVersion                    = "77e558dcbe"
+shortFormVersion                    = "cb3d3c10fa"
 lifecycleProcess = "2.6.0"
 
 [libraries]
