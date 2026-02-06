@@ -37,7 +37,7 @@ addReviewVersion                    = '308e4dd80f'
 alarmVersion                        = '79cc1efa42'
 baseFeedVersion                     = 'd334559951'
 cardInfoVersion                     = "365bfa243e"
-feedVersion                         = 'bc5d6b6a8c'
+feedVersion                         = '10f72c6ee5'
 profileVersion                      = '2549725f61'
 findingVersion                      = '9a4a134c41'
 themeVersion                        = '534a8a456f'
@@ -77,7 +77,7 @@ restaurantMenusVersion              = "f63d4a8500"
 restaurantReviewVersion             = "bddde2275b"
 restaurantGalleryVersion            = "1943ea995e"
 restaurantListBottomSheetVersion    = "6550264f6a"
-shortFormVersion                    = "27e235e467"
+shortFormVersion                    = "f11f40b574"
 lifecycleProcess = "2.6.0"
 
 [libraries]
