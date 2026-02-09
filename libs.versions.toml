@@ -79,6 +79,7 @@ restaurantGalleryVersion            = "1943ea995e"
 restaurantListBottomSheetVersion    = "6550264f6a"
 shortFormVersion                    = "f11f40b574"
 lifecycleProcess = "2.6.0"
+foundation = "1.10.2"
 
 [libraries]
 
@@ -190,6 +191,7 @@ kotlin-coroutines-play              = { module = "org.jetbrains.kotlinx:kotlinx-
 coil                                = { group = "io.coil-kt",                   name="coil-compose",                    version.ref = "coilVersion" }
 androidx-work-runtime-ktx           = "androidx.work:work-runtime-ktx:2.9.0"
 androidx-lifecycle-process = {group = "androidx.lifecycle",name = "lifecycle-process",version.ref = "lifecycleProcess" }
+androidx-foundation = {group = "androidx.compose.foundation",name = "foundation",version.ref = "foundation" }
 
 [plugins]
 android-application                 = { id = "com.android.application", version.ref = "agp" }
