@@ -80,6 +80,8 @@ restaurantListBottomSheetVersion    = "6550264f6a"
 shortFormVersion                    = "f11f40b574"
 lifecycleProcess = "2.6.0"
 foundation = "1.10.2"
+uiautomator = "2.2.0"
+benchmark = "1.2.4"
 
 [libraries]
 
@@ -190,8 +192,10 @@ play-services-location              = { module = "com.google.android.gms:play-se
 kotlin-coroutines-play              = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services",              version.ref = "coroutines" }
 coil                                = { group = "io.coil-kt",                   name="coil-compose",                    version.ref = "coilVersion" }
 androidx-work-runtime-ktx           = "androidx.work:work-runtime-ktx:2.9.0"
-androidx-lifecycle-process = {group = "androidx.lifecycle",name = "lifecycle-process",version.ref = "lifecycleProcess" }
-androidx-foundation = {group = "androidx.compose.foundation",name = "foundation",version.ref = "foundation" }
+androidx-lifecycle-process          = {group = "androidx.lifecycle",            name = "lifecycle-process",             version.ref = "lifecycleProcess" }
+androidx-foundation                 = {group = "androidx.compose.foundation",   name = "foundation",                    version.ref = "foundation" }
+androidx-uiautomator                = { group = "androidx.test.uiautomator",    name = "uiautomator",                   version.ref = "uiautomator" }
+androidx-benchmark-macro-junit4     = { group = "androidx.benchmark",           name = "benchmark-macro-junit4",        version.ref = "benchmark" }
 
 [plugins]
 android-application                 = { id = "com.android.application", version.ref = "agp" }
@@ -199,5 +203,6 @@ jetbrains-kotlin-android            = { id = "org.jetbrains.kotlin.android", ver
 android-library                     = { id = "com.android.library", version.ref = "agp" }
 hilt                                = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
 serialization                       = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serialization" }
+android-test                        = { id = "com.android.test", version = "8.2.2" }
 # @formatter:on
 
